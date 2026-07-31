@@ -11,9 +11,6 @@ defineProps<{
     aria-hidden="true"
     focusable="false"
   >
-    <use
-      :href="`#wb-pixel-${name}`"
-      transform="translate(0 24) scale(1 -1)"
-    />
+    <use :href="`#wb-pixel-${name}`" />
   </svg>
 </template>

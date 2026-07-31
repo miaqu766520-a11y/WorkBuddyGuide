@@ -30,15 +30,8 @@ export default defineConfig({
     transformHead: (context) => createSeoHead(siteUrl, context),
     head: [
       ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
-      ["meta", { name: "theme-color", content: "#d8f238" }],
+      ["meta", { name: "theme-color", content: "#c2410c" }],
       ["meta", { name: "author", content: "WorkBuddy Guide Contributors" }],
-      [
-        "meta",
-        {
-          name: "baidu-site-verification",
-          content: "codeva-RF1ZqL4g90",
-        },
-      ],
       [
         "meta",
         {
@@ -99,7 +92,7 @@ export default defineConfig({
       },
       footer: {
         message:
-          '以真实任务为主线的 WorkBuddy 社区实战读本 · Pixel icons by <a href="https://pixeliconlibrary.com/" target="_blank" rel="noreferrer">HackerNoon</a>',
+          '基于开源项目 <a href="https://github.com/AlephAITech/WorkBuddyGuide" target="_blank" rel="noreferrer">WorkBuddyGuide</a>（MIT 协议）二次创作 · Icons: Feather (MIT) / Lucide (ISC)',
         copyright: "Copyright © 2026 WorkBuddy Guide Contributors",
       },
     },

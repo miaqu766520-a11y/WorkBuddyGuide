@@ -38,10 +38,10 @@ withDefaults(
 .wb-group-qr__frame {
   position: relative;
   padding: 8px;
-  border: 2px solid var(--wb-ink);
-  border-radius: 4px;
+  border: 1px solid var(--wb-ink);
+  border-radius: 2px;
   background: #fff;
-  box-shadow: 5px 5px 0 var(--wb-acid);
+  box-shadow: 0 10px 30px rgb(28 25 23 / 12%);
 }
 
 .wb-group-qr__frame::before {
@@ -73,10 +73,10 @@ withDefaults(
 
 .wb-group-qr figcaption span {
   color: var(--vp-c-text-2);
-  font-family: "Silkscreen", monospace;
+  font-family: var(--wb-mono, monospace);
   font-size: 9px;
   font-weight: 400;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.14em;
 }
 
 .wb-group-qr.is-screen-menu {
@@ -85,7 +85,7 @@ withDefaults(
 }
 
 .wb-group-qr.is-screen-menu .wb-group-qr__frame {
-  box-shadow: 4px 4px 0 var(--wb-acid);
+  box-shadow: 0 10px 30px rgb(28 25 23 / 12%);
 }
 
 .wb-group-qr.is-screen-menu figcaption {
@@ -94,7 +94,7 @@ withDefaults(
 
 @media (prefers-color-scheme: dark) {
   .wb-group-qr__frame {
-    box-shadow: 5px 5px 0 var(--vp-c-brand-2);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 40%);
   }
 }
 </style>
