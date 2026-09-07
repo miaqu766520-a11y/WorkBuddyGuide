@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://workbuddy.homes/">
-    <img src="./assets/workbuddy-guide-banner.png" alt="WorkBuddy白皮书：首页预览" width="100%">
+    <img src="./assets/workbuddy-guide-banner.png" alt="WorkBuddy蓝皮书：首页预览" width="100%">
   </a>
 </p>
 
-<h1 align="center">WorkBuddy 实战白皮书</h1>
+<h1 align="center">WorkBuddy 实战蓝皮书</h1>
 
 <p align="center"><strong>从第一项任务，到一支 AI 团队</strong></p>
 
@@ -23,7 +23,7 @@
 
 推荐访问 **[workbuddy.homes](https://workbuddy.homes/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
-GitHub 适合了解项目和参与贡献；真正阅读白皮书时，网站体验更完整。
+GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体验更完整。
 
 ## 你会在这里看到什么
 
@@ -41,7 +41,7 @@ GitHub 适合了解项目和参与贡献；真正阅读白皮书时，网站体�
 - **已经有具体任务**：直接进入第二篇对应案例，跑通后再阅读第三篇。
 - **准备团队落地**：重点阅读第三、四篇，并记录权限边界、验收标准和失败回退。
 
-更完整的路线见[如何阅读这本白皮书](./docs/reading-guide.md)。
+更完整的路线见[如何阅读这本蓝皮书](./docs/reading-guide.md)。
 
 ## 帮你解决
 
@@ -69,7 +69,7 @@ npm run docs:preview
 
 ## 参与共创
 
-我们优先收集真实、可复现的 WorkBuddy 使用案例。提交 Case 前，请先搜索[社区案例集](https://workbuddy.homes/cases/)和[白皮书目录](https://workbuddy.homes/bluebook/)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
+我们优先收集真实、可复现的 WorkBuddy 使用案例。提交 Case 前，请先搜索[社区案例集](https://workbuddy.homes/cases/)和[蓝皮书目录](https://workbuddy.homes/bluebook/)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
 
 每个案例至少需要写清：
 
@@ -80,7 +80,7 @@ npm run docs:preview
 - **实际效果**：使用截图或其他结果证明展示最终输出。
 - **验收标准**：怎样判断任务已经正确完成。
 
-投稿时，在 `docs/cases/submissions/` 下为案例新建独立目录，使用 [Case 正文模板](./.github/CASE_TEMPLATE.md)编写内容，并通过 [Case PR 模板](./.github/PULL_REQUEST_TEMPLATE/case.md)提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经过进一步复现和编辑后，可能进入白皮书正式章节。
+投稿时，在 `docs/cases/submissions/` 下为案例新建独立目录，使用 [Case 正文模板](./.github/CASE_TEMPLATE.md)编写内容，并通过 [Case PR 模板](./.github/PULL_REQUEST_TEMPLATE/case.md)提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经过进一步复现和编辑后，可能进入蓝皮书正式章节。
 
 完整流程请阅读 [Case 投稿指南](https://workbuddy.homes/community/case-contributing)和[贡献指南](./CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示加入 WorkBuddy 共创群，交流选题并获得内容完善建议。
 
@@ -93,7 +93,7 @@ WorkBuddyGuide
 │  └─ PULL_REQUEST_TEMPLATE/       # Pull Request 模板
 ├─ docs/
 │  ├─ .vitepress/                  # 网站配置、主题、导航与 SEO
-│  ├─ bluebook/                    # 白皮书正式章节
+│  ├─ bluebook/                    # 蓝皮书正式章节
 │  ├─ cases/
 │  │  └─ submissions/              # 社区提交的独立 Case
 │  ├─ community/                   # Case 投稿与社区共创指南
@@ -113,7 +113,7 @@ WorkBuddyGuide
 
 ## 作者们
 
-感谢以下作者共同参与《WorkBuddy 白皮书》的创作与维护。点击名片可查看原图并扫描二维码。
+感谢以下作者共同参与《WorkBuddy 蓝皮书》的创作与维护。点击名片可查看原图并扫描二维码。
 
 <p align="center">
   <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>
